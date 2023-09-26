@@ -1,12 +1,12 @@
 """Frequencies function."""
 """ENTER YOUR SOLUTION HERE!"""
-from collections import Counter
+import collections
 
 
 def frequencies(items):
-    counter = Counter(items)
+    counter = collections.Counter(items)
 
-    frequencies {dict(counter)}
+    frequencies = dict(counter)
 
     # Your code goes here
     return frequencies
