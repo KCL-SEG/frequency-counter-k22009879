@@ -4,7 +4,9 @@ from collections import Counter
 
 
 def frequencies(items):
-    frequencies = {Counter(items)}
-    print(frequencies)
+    counter = Counter(items)
+
+    frequencies {dict(counter)}
+
     # Your code goes here
     return frequencies
