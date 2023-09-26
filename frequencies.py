@@ -4,11 +4,17 @@ import collections
 
 
 def frequencies(items):
+    newlist = []
     for item in items:
-        str(item)
-    counter = collections.Counter(items)
+        item = str(item)
+        newlist.append(item)
+    
+    counter = collections.Counter(newlist)
 
     frequencies = dict(counter)
+    print(frequencies)
 
     # Your code goes here
     return frequencies
+
+
